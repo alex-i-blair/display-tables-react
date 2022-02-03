@@ -1,5 +1,11 @@
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-image: url('background-992858.png');
 }
 
 .App-logo {
@@ -40,4 +46,26 @@
 img {
   height: 200px;
   width: auto;
+}
+
+.car-card, .pizza-card, .cocktail-card, .dog-card {
+  width: 70%;
+  border: solid black 2px;
+  border-radius: 15px;
+}
+
+.car-card {
+  background-color: rgba(100, 148, 237, 0.407);
+}
+
+.pizza-card {
+  background-color: rgba(220, 20, 60, 0.452);
+}
+
+.dog-card {
+  background-color: rgba(255, 228, 181, 0.486);
+}
+
+.cocktail-card {
+  background-color: rgba(50, 205, 50, 0.459);
 }

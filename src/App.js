@@ -37,28 +37,28 @@ function App() {
 
   return (
     <div className="App">
-      <h3>Cars:</h3>
+      <h1>Cars:</h1>
       {
         isLoading
           ? <h2>Loading</h2>
           : <CarsList cars={cars}
           />
       } 
-      <h3>Pizzas:</h3>
+      <h1>Pizzas:</h1>
       {
         isLoading
           ? <h2>Loading</h2>
           : <PizzasList pizzas={pizzas}
           />
       } 
-      <h3>Dogs:</h3>
+      <h1>Dogs:</h1>
       {
         isLoading
           ? <h2>Loading</h2>
           : <DogsList dogs={dogs}
           />
       } 
-      <h3>Cocktails:</h3>
+      <h1>Cocktails:</h1>
       {
         isLoading
           ? <h2>Loading</h2>
