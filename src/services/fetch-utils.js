@@ -6,5 +6,23 @@ export async function getCars() {
     .select();
   return checkError(response);
 }
+export async function getPizzas() {
+  const response = await client
+    .from('pizzas')
+    .select();
+  return checkError(response);
+}
+export async function getDogs() {
+  const response = await client
+    .from('dogs')
+    .select();
+  return checkError(response);
+}
+export async function getCocktails() {
+  const response = await client
+    .from('cocktails')
+    .select();
+  return checkError(response);
+}
 
 
