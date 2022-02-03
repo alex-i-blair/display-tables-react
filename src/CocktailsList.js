@@ -6,6 +6,7 @@ export default function CocktailsList({ cocktails }) {
       <img src={cocktail.image_id} />
       <h2>{cocktail.name}</h2>
       <p>{cocktail.ingredients}</p>
+      <p>Where to get one in Portland: {cocktail.where}</p>
     </div>
   
   ); 
